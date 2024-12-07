@@ -12,6 +12,8 @@ export default {
         "header-bg": "#1A1A1A",
         "primary-bg": "#0D8C42",
         "secondary-bg": "#DA7656",
+        "text-header": "#1F3D4F",
+        "text-light": "#626C7A",
       },
     },
   },
