@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .swiper-pagination-bullet {
+    @apply bg-secondary opacity-60 transition-opacity duration-300;
+  }
+  .swiper-pagination-bullet-active {
+    @apply bg-secondary opacity-100;
+  }
+}
+
 @font-face {
   font-family: "dm-sans";
   src: url("../src/fonts/dm\ sans/DM_Sans/static/DMSans_18pt-Regular.ttf");
