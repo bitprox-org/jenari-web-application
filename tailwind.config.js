@@ -14,6 +14,7 @@ export default {
         "secondary-bg": "#DA7656",
         "text-header": "#1F3D4F",
         "text-light": "#626C7A",
+        "dark-blue": "#1F3D4F",
       },
     },
   },

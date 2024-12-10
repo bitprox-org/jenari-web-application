@@ -29,8 +29,8 @@ const Carousel = ({
       autoplay={{ delay: 6000 }}
       breakpoints={{
         640: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: slidesPerView },
+        767: { slidesPerView: 1 },
+        1024: { slidesPerView: 4 },
       }}
       onSwiper={onSwiperRef} // Pass the swiper instance to the parent
     >
